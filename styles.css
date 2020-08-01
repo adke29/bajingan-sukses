@@ -81,7 +81,7 @@ nav .check-btn{
         left:-5px;
         text-align:center;
         left:-110%;
-        transition: all .5s;
+        transition: all .5s ease;
         
     }
     .little-only a{
