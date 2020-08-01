@@ -53,8 +53,8 @@ main h1{
 .login-box input[type="submit"]:hover
 {
     cursor:pointer;
-    background:greenyellow;
-    color:black;
+    background:radial-gradient(circle at top left,#19d7f8,#fd00da);
+    color:white;
 }
 .login-box a{
     font-size: 12px;
