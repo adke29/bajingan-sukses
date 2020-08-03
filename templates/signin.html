@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    <title>Sign In</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='signin.css') }}">
+{% endblock %}
+
+
+{% block body%}
+<main>
+    <div class="login-box">
+        <img src="{{url_for('static',filename='avatar.png')}}" alt="avatar" class="avatar">
+        <h1>Login Here</h1>
+        <form action="">
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Masukan Username">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Masukan Password">
+            <input type="submit" value="Login">
+            <a href="{{url_for('forget')}}">Lupa Password</a>
+        </form>
+    </div>
+</main>
+{% endblock %}
