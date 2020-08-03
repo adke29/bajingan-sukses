@@ -104,4 +104,7 @@ nav .check-btn{
     #check:checked ~  ul{
         left:-5px;
     }
+    nav ul li{
+        margin:0 -9px;
+    }
 }
